@@ -81,6 +81,31 @@ text-align:center;
 padding:20px;
 margin-top:50px;
 }
+.about-cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.about-card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.12);
+transition:.3s;
+text-align:center;
+}
+
+.about-card:hover{
+transform:translateY(-10px);
+box-shadow:0 25px 50px rgba(0,0,0,.18);
+}
+
+.about-card h2{
+color:#6a11cb;
+margin-bottom:15px;
+}
 </style>
 </head>
 
@@ -97,32 +122,33 @@ margin-top:50px;
 
 <h1>About Me</h1>
     <div class="highlight">
-🚀 Student • Web Creator • Learning Every Day
+🚀 Building Skills Today • Creating Opportunities Tomorrow 🚀
+</div>
+<div class="about-cards">
+
+<div class="about-card">
+<h2>🚀 My Journey</h2>
+<p>
+Started from zero and learning web development step by step.
+Every project helps me improve my skills.
+</p>
 </div>
 
+<div class="about-card">
+<h2>💡 What I Do</h2>
 <p>
-Hello! I'm Daksh Dobariya, a student passionate about technology and web development.
+Creating modern, responsive and attractive websites for businesses and creators.
 </p>
+</div>
 
-<br>
-
+<div class="about-card">
+<h2>🎯 My Goal</h2>
 <p>
-I am currently learning how to create modern, responsive and attractive websites.
-My goal is to help businesses, creators and startups build a strong online presence.
+To become a skilled web creator and build websites that make an impact.
 </p>
+</div>
 
-<br>
-
-<p>
-This website is one of my first projects and represents my journey into the world of web design and development.
-I am continuously improving my skills and exploring new technologies every day.
-</p>
-
-<br>
-
-<p>
-Thank you for visiting Daksh Web Studio.
-</p>
+</div>
 
 </div>
 
