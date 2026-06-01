@@ -128,20 +128,47 @@ margin-bottom:40px;
 font-size:36px;
 color:#5f27cd;
 }
-    .stats{
+.stats{
 display:flex;
 justify-content:center;
+align-items:center;
 gap:80px;
-padding:60px;
+
+padding:60px 20px;
+
 background:white;
+
 text-align:center;
 }
 
-.stats h2{
-font-size:42px;
-color:#4f46e5;
+.stats div{
+background:white;
+
+padding:25px 35px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+min-width:220px;
+
+transition:0.3s;
 }
 
+.stats div:hover{
+transform:translateY(-8px);
+}
+
+.stats h2{
+font-size:38px;
+color:#4f46e5;
+margin-bottom:10px;
+}
+
+.stats p{
+font-size:18px;
+color:#555;
+}
 .cards{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
